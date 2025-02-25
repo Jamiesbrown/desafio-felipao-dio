@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+}
+
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px #00000033;
+}
+
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+
+#resultado {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+
+#imagem {
+    margin-top: 20px;
+    max-width: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px #0000004d;
+}
+
+
+.hidden {
+    display: none;
+}
